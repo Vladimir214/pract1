@@ -20,17 +20,17 @@ public class Main {
                 int words = string.split("\\s+").length;
                 resultOne += symbols;
                 resultTwo += words;
-                System.out.println("Количество символов в " + a + " строке: " + symbols);
-                System.out.println("Количество слов в " + a + " строке: "+ words);
+                System.out.println("Количество символов в " + a + " строке - " + symbols);
+                System.out.println("Количество слов в " + a + " строке - "+ words);
                 System.out.println();
             }
         } catch (IOException e) {
             System.out.println("Нет файла");
         }
 
-        System.out.println("Количество строк в файле: " + num);
-        System.out.println("Количество символов в файле: " + resultOne);
-        System.out.println("Количество слов в файле: " + resultTwo);
+        System.out.println("Количество строк в файле - " + num);
+        System.out.println("Количество символов в файле - " + resultOne);
+        System.out.println("Количество слов в файле - " + resultTwo);
     }
 }
 
